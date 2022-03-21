@@ -11,152 +11,299 @@
   <body>
     <!-- Header -->
     <header>
-      <div class="logo">
-        <i class="fa-brands fa-youtube"></i>
-        <span>Youtube</span>
+      <div class="hamburgerAndLogo">
+        <div class="hamburger">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="logo">
+          <i class="fa-brands fa-youtube"></i>
+          <div class="title">Premium<span>KR</span></div>
+        </div>
       </div>
+      <div class="searchBar">
+        <div class="searchInput">
+          <input type="text" placeholder="검색" />
+          <i class="fa-solid fa-keyboard"></i>
+        </div>
+        <div class="searchButton">
+          <button class="searchBtn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+        <div class="micBtn">
+          <i class="fa-solid fa-microphone"></i>
+        </div>
+      </div>
+
       <div class="icons">
-        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-video"></i>
         <i class="fa-solid fa-ellipsis-vertical"></i>
+        <i class="fa-solid fa-bell"></i>
+        <i class="fa-solid fa-user"></i>
       </div>
     </header>
 
-    <!-- Video Player -->
-    <section class="player">
-      <video
-        src="video/[후토크] 손흥민 부진_ 멀티골!! 끝!!.mp4"
-        controls
-      ></video>
-    </section>
-
-    <div class="infoAndUpNext">
+    <div class="videoAndChannel">
+      <!-- Video Player -->
+      <section class="player">
+        <video src="video/라매개발자.mp4" controls></video>
+      </section>
       <!-- Video Info -->
       <section class="info">
         <!-- Meta data -->
         <div class="metadata">
           <ul class="hashtags">
-            <li class="hashtag">#손흥민</li>
-            <li class="hashtag">#이스타</li>
-            <li class="hashtag">#토트넘</li>
+            <li class="hashtag">#라매개발자</li>
+            <li class="hashtag">#프론트엔드</li>
+            <li class="hashtag">#독학</li>
           </ul>
-          <div class="titleAndButton">
-            <span class="title clamp">
-              [후토크] 손흥민 부진? 멀티골!! 끝!! [후토크] 손흥민 부진? 멀티골!!
-              끝!! [후토크] 손흥민 부진? 멀티골!! 끝!! [후토크] 손흥민 부진?
-              멀티골!! 끝!! [후토크] 손흥민 부진? 멀티골!! 끝!! [후토크] 손흥민
-              부진? 멀티골!! 끝!! [후토크] 손흥민 부진? 멀티골!! 끝!!
+          <div class="title">
+            <span>
+              웹 프론트엔드 개발자 아무것도 모르는 상태에서 취업까지 하는
+              구체적인 준비방법 | 프론트엔드 공부순서 | 취업준비 | 면접준비
             </span>
-            <button class="moreBtn">
-              <i class="fa-solid fa-caret-down"></i>
-            </button>
           </div>
-          <span class="views">1M Views 1 month ago</span>
         </div>
-
         <!-- Actions -->
-        <ul class="actions">
-          <li>
-            <button>
-              <i class="active fas fa-thumbs-up"></i>
-              <span>1K</span>
-            </button>
-          </li>
-          <li>
-            <button>
-              <i class="fas fa-thumbs-down"></i>
-              <span>0</span>
-            </button>
-          </li>
-          <li>
-            <button>
-              <i class="fas fa-share"></i>
-              <span>Share</span>
-            </button>
-          </li>
-          <li>
-            <button>
-              <i class="fas fa-plus"></i>
-              <span>Save</span>
-            </button>
-          </li>
-          <li>
-            <button>
-              <i class="fas fa-font-awesome-flag"></i>
-              <span>Report</span>
-            </button>
-          </li>
-        </ul>
+
+        <div class="viewsAndAction">
+          <span class="views">
+            조회수 73,950회
+            <span> <span class="divider"></span> 2021. 4. 9. </span>
+          </span>
+          <ul class="actions">
+            <li>
+              <button>
+                <i class="active fas fa-thumbs-up"></i>
+                <span>4.1천</span>
+              </button>
+            </li>
+            <li>
+              <button>
+                <i class="fas fa-thumbs-down"></i>
+                <span>싫어요</span>
+              </button>
+            </li>
+            <li>
+              <button>
+                <i class="fas fa-share"></i>
+                <span>공유</span>
+              </button>
+            </li>
+            <li>
+              <button>
+                <i class="fa-solid fa-download"></i>
+                <span>오프라인 저장</span>
+              </button>
+            </li>
+            <li>
+              <button>
+                <i class="fa-solid fa-scissors"></i>
+                <span>클립</span>
+              </button>
+            </li>
+          </ul>
+        </div>
 
         <!-- Channel Description -->
         <div class="channel">
           <div class="metadata">
             <img
-              src="https://yt3.ggpht.com/ytc/AKedOLQi4I-UOO_LDetSQcn8r5Iihn7WkBsZWJwjjc9-xg=s48-c-k-c0x00ffffff-no-rj"
+              src="https://yt3.ggpht.com/ytc/AKedOLRcJo6vdSnnVvOJT-WT0W0ura8p95dSkP1Dbc3C=s88-c-k-c0x00ffffff-no-rj"
               class="avatar"
             />
             <div class="info">
-              <span class="name">이스타TV</span>
-              <span class="subscriber">1M subscriber</span>
+              <span class="name">라매개발자</span>
+              <span class="subscriber">구독자 8.28천명</span>
             </div>
           </div>
-          <button class="subscribe">subscribe</button>
+          <div class="buttons">
+            <button class="subscribe">구독중</button>
+          </div>
         </div>
       </section>
-
-      <!-- UpNext -->
-      <section class="upNext">
-        <span class="title">Up next</span>
-        <ul>
-          <li class="item">
-            <div class="img">
-              <img
-                src="https://i.ytimg.com/an_webp/Bq41AmtGBgs/mqdefault_6s.webp?du=3000&sqp=CIWr4JEG&rs=AOn4CLC-JE1fIcACM37Yb5G5jxSmpm5SzQ"
-              />
-            </div>
-            <div class="info">
-              <span class="title">[후토크] 손흥민 부진? 멀티골!! 끝!!</span>
-              <span class="name">이스타TV</span>
-              <span class="views">1M views</span>
-            </div>
-            <button class="moreBtn">
-              <i class="fa-solid fa-ellipsis-vertical"></i>
-            </button>
-          </li>
-
-          <li class="item">
-            <div class="img">
-              <img
-                src="https://i.ytimg.com/an_webp/Bq41AmtGBgs/mqdefault_6s.webp?du=3000&sqp=CIWr4JEG&rs=AOn4CLC-JE1fIcACM37Yb5G5jxSmpm5SzQ"
-              />
-            </div>
-            <div class="info">
-              <span class="title">[후토크] 손흥민 부진? 멀티골!! 끝!!</span>
-              <span class="name">이스타TV</span>
-              <span class="views">1M views</span>
-            </div>
-            <button class="moreBtn">
-              <i class="fa-solid fa-ellipsis-vertical"></i>
-            </button>
-          </li>
-
-          <li class="item">
-            <div class="img">
-              <img
-                src="https://i.ytimg.com/an_webp/Bq41AmtGBgs/mqdefault_6s.webp?du=3000&sqp=CIWr4JEG&rs=AOn4CLC-JE1fIcACM37Yb5G5jxSmpm5SzQ"
-              />
-            </div>
-            <div class="info">
-              <span class="title">[후토크] 손흥민 부진? 멀티골!! 끝!!</span>
-              <span class="name">이스타TV</span>
-              <span class="views">1M views</span>
-            </div>
-            <button class="moreBtn">
-              <i class="fa-solid fa-ellipsis-vertical"></i>
-            </button>
-          </li>
-        </ul>
-      </section>
     </div>
+
+    <!-- UpNext -->
+    <section class="upNext">
+      <ul>
+        <li class="item">
+          <div class="img">
+            <img
+              src="https://i.ytimg.com/an_webp/WT43TE1F0C0/mqdefault_6s.webp?du=3000&sqp=CLT94JEG&rs=AOn4CLBTVri-SN_00AFkM1Z9-3HoPdyCSA"
+            />
+          </div>
+          <div class="info">
+            <span class="title"
+              >[주간킹갓] 콘테의 손흥민을 빼면 안 되는 이유를 증명한
+              손흥민</span
+            >
+            <span class="name">이스타TV</span>
+            <span class="views">
+              조회수 2.5만회 <span> <span class="divider"></span> 1시간 전 </span>
+            </span>
+            </span>
+          </div>
+          <button class="moreBtn">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </button>
+        </li>
+
+        <li class="item">
+          <div class="img">
+            <img
+              src="https://i.ytimg.com/an_webp/D_xNNuJV8Xk/mqdefault_6s.webp?du=3000&sqp=CISz4ZEG&rs=AOn4CLBvm0C21PJsQKqFC4XuiHq13F7lNQ"
+            />
+          </div>
+          <div class="info">
+            <span class="title">
+              제 71회 이스타 퀴즈쇼ㅣ짤 3개로 선수 유추하기 2탄!! 역대급
+              창의적인 오답 속출ㅋㅋ
+            </span>
+            <span class="name">이스타TV</span>
+            <span class="views">
+              조회수 18만회 <span> <span class="divider"></span> 2일 전 </span>
+            </span>
+            </span>
+          </div>
+          <button class="moreBtn">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </button>
+        </li>
+
+        <li class="item">
+          <div class="img">
+            <img
+              src="https://i.ytimg.com/an_webp/WT43TE1F0C0/mqdefault_6s.webp?du=3000&sqp=CLT94JEG&rs=AOn4CLBTVri-SN_00AFkM1Z9-3HoPdyCSA"
+            />
+          </div>
+          <div class="info">
+            <span class="title"
+              >[주간킹갓] 콘테의 손흥민을 빼면 안 되는 이유를 증명한
+              손흥민</span
+            >
+            <span class="name">이스타TV</span>
+            <span class="views">
+              조회수 2.5만회 <span> <span class="divider"></span> 1시간 전 </span>
+            </span>
+            </span>
+          </div>
+          <button class="moreBtn">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </button>
+        </li>
+
+        <li class="item">
+          <div class="img">
+            <img
+              src="https://i.ytimg.com/an_webp/D_xNNuJV8Xk/mqdefault_6s.webp?du=3000&sqp=CISz4ZEG&rs=AOn4CLBvm0C21PJsQKqFC4XuiHq13F7lNQ"
+            />
+          </div>
+          <div class="info">
+            <span class="title">
+              제 71회 이스타 퀴즈쇼ㅣ짤 3개로 선수 유추하기 2탄!! 역대급
+              창의적인 오답 속출ㅋㅋ
+            </span>
+            <span class="name">이스타TV</span>
+            <span class="views">
+              조회수 18만회 <span> <span class="divider"></span> 2일 전 </span>
+            </span>
+            </span>
+          </div>
+          <button class="moreBtn">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </button>
+        </li>
+
+        <li class="item">
+          <div class="img">
+            <img
+              src="https://i.ytimg.com/an_webp/WT43TE1F0C0/mqdefault_6s.webp?du=3000&sqp=CLT94JEG&rs=AOn4CLBTVri-SN_00AFkM1Z9-3HoPdyCSA"
+            />
+          </div>
+          <div class="info">
+            <span class="title"
+              >[주간킹갓] 콘테의 손흥민을 빼면 안 되는 이유를 증명한
+              손흥민</span
+            >
+            <span class="name">이스타TV</span>
+            <span class="views">
+              조회수 2.5만회 <span> <span class="divider"></span> 1시간 전 </span>
+            </span>
+            </span>
+          </div>
+          <button class="moreBtn">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </button>
+        </li>
+
+        <li class="item">
+          <div class="img">
+            <img
+              src="https://i.ytimg.com/an_webp/D_xNNuJV8Xk/mqdefault_6s.webp?du=3000&sqp=CISz4ZEG&rs=AOn4CLBvm0C21PJsQKqFC4XuiHq13F7lNQ"
+            />
+          </div>
+          <div class="info">
+            <span class="title">
+              제 71회 이스타 퀴즈쇼ㅣ짤 3개로 선수 유추하기 2탄!! 역대급
+              창의적인 오답 속출ㅋㅋ
+            </span>
+            <span class="name">이스타TV</span>
+            <span class="views">
+              조회수 18만회 <span> <span class="divider"></span> 2일 전 </span>
+            </span>
+            </span>
+          </div>
+          <button class="moreBtn">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </button>
+        </li>
+
+        <li class="item">
+          <div class="img">
+            <img
+              src="https://i.ytimg.com/an_webp/WT43TE1F0C0/mqdefault_6s.webp?du=3000&sqp=CLT94JEG&rs=AOn4CLBTVri-SN_00AFkM1Z9-3HoPdyCSA"
+            />
+          </div>
+          <div class="info">
+            <span class="title"
+              >[주간킹갓] 콘테의 손흥민을 빼면 안 되는 이유를 증명한
+              손흥민</span
+            >
+            <span class="name">이스타TV</span>
+            <span class="views">
+              조회수 2.5만회 <span> <span class="divider"></span> 1시간 전 </span>
+            </span>
+            </span>
+          </div>
+          <button class="moreBtn">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </button>
+        </li>
+
+        <li class="item">
+          <div class="img">
+            <img
+              src="https://i.ytimg.com/an_webp/D_xNNuJV8Xk/mqdefault_6s.webp?du=3000&sqp=CISz4ZEG&rs=AOn4CLBvm0C21PJsQKqFC4XuiHq13F7lNQ"
+            />
+          </div>
+          <div class="info">
+            <span class="title">
+              제 71회 이스타 퀴즈쇼ㅣ짤 3개로 선수 유추하기 2탄!! 역대급
+              창의적인 오답 속출ㅋㅋ
+            </span>
+            <span class="name">이스타TV</span>
+            <span class="views">
+              조회수 18만회 <span> <span class="divider"></span> 2일 전 </span>
+            </span>
+            </span>
+          </div>
+          <button class="moreBtn">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </button>
+        </li>
+      </ul>
+    </section>
 
     <script src="main.js" defer></script>
     <script
