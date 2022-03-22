@@ -412,7 +412,7 @@ section.info {
     width: 30%;
     min-width: 300px;
     max-width: 400px;
-    padding: 0 var(--padding-medium);
+    padding-left: var(--padding-medium);
   }
 }
 
